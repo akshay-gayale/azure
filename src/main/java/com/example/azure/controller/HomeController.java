@@ -10,4 +10,9 @@ public class HomeController {
     public String viewHomePage() {
         return "index";
     }
+
+    @RequestMapping("/welcome")
+    public String viewWelcomePage() {
+        return "welcome";
+    }
 }
